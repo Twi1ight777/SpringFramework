@@ -1,4 +1,4 @@
-package ru.start.springframework;
+package ru.start.springframework.construct;
 
 public class MusicPlayer {
     private Music music;
