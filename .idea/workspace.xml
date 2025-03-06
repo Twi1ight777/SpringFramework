@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4799884f-d231-4ea6-9dac-09edb6283951" name="Changes" comment="Realized Inversion of Control">
+    <list default="true" id="4799884f-d231-4ea6-9dac-09edb6283951" name="Changes" comment="Realized Dependency Injection">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/setter/ClassicalMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/setter/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/setter/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/setter/PopMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/setter/RockMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/setter/TestingSpringFramework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/TestingSpringFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/TestingSpringFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/construct/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/construct/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/construct/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/PopMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/construct/PopMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/construct/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/TestingSpringFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/construct/TestingSpringFramework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +34,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="develop" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -46,23 +66,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.TestingSpringFramework.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mr.T/IdeaProjects/SpringFramework&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TestingSpringFramework.executor": "Run",
+    "Application.ru.start.springframework.construct.TestingSpringFramework.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "develop",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Mr.T/IdeaProjects/SpringFramework/src/main/java/ru/start/springframework/construct",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mr.T\IdeaProjects\SpringFramework\src\main\java\ru\start\springframework\construct" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mr.T\IdeaProjects\SpringFramework" />
       <recent name="C:\Users\Mr.T\IdeaProjects\SpringFramework\testProjectN1\src" />
@@ -84,11 +108,24 @@
       </method>
     </configuration>
     <configuration name="TestingSpringFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.start.springframework.TestingSpringFramework" />
+      <option name="MAIN_CLASS_NAME" value="ru.start.springframework.setter.TestingSpringFramework" />
       <module name="SpringFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.start.springframework.*" />
+          <option name="PATTERN" value="ru.start.springframework.setter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.start.springframework.construct.TestingSpringFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.start.springframework.construct.TestingSpringFramework" />
+      <module name="SpringFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.start.springframework.construct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestingSpringFramework" />
+        <item itemvalue="Application.ru.start.springframework.construct.TestingSpringFramework" />
+        <item itemvalue="Application.TestSpring" />
         <item itemvalue="Application.TestingSpringFramework" />
         <item itemvalue="Application.TestSpring" />
       </list>
@@ -129,5 +169,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Realized Dependency Injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realized Dependency Injection" />
   </component>
 </project>
