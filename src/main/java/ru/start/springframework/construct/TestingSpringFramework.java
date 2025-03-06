@@ -1,4 +1,4 @@
-package ru.start.springframework;
+package ru.start.springframework.construct;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -13,6 +13,7 @@ public class TestingSpringFramework {
 //        !MusicPlayer musicPlayer = new MusicPlayer(music); // Надо избежать создания объекта MusicPlayer вручную.
 //        1. Создаем Java классы - будущие бины. 2. Связываем бины с помощью XML-файла конфигурации.(или Java кодом)
 //        3. Все бины берутся из контейнера Spring.
+//        Реализовали Dependency Injection через Конструктор. Внедрили ссылку <constructor-arg ref="musicBean"/>
         MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class); // Внедрение зависимостей
         musicPlayer.playMusic();
         context.close();
