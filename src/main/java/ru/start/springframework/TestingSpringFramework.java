@@ -8,8 +8,11 @@ public class TestingSpringFramework {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 "applicationContext.xml");
         //"testBean" - id бина. TestBean имя класса. testBean - объект, созданный Spring Framework.
-        TestBean testBean = context.getBean("testBean", TestBean.class);
-        System.out.println(testBean.getName());
+        // ClassicalMusic или RockMusic - наследники Music. В конфигурации можно переключаться между Music и RockMusic.
+        Music music = context.getBean("musicBean", Music.class);
+
+        MusicPlayer musicPlayer = new MusicPlayer(music);
+        musicPlayer.playMusic();
         context.close();
     }
 }
