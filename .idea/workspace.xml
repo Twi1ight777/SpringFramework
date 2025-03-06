@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4799884f-d231-4ea6-9dac-09edb6283951" name="Changes" comment="Realized Inversion of Control">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/TestingSpringFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/TestingSpringFramework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -84,11 +87,24 @@
       </method>
     </configuration>
     <configuration name="TestingSpringFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.start.springframework.TestingSpringFramework" />
+      <option name="MAIN_CLASS_NAME" value="ru.start.springframework.setter.TestingSpringFramework" />
       <module name="SpringFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.start.springframework.*" />
+          <option name="PATTERN" value="ru.start.springframework.setter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.start.springframework.construct.TestingSpringFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.start.springframework.construct.TestingSpringFramework" />
+      <module name="SpringFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.start.springframework.construct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestingSpringFramework" />
+        <item itemvalue="Application.TestSpring" />
+        <item itemvalue="Application.ru.start.springframework.construct.TestingSpringFramework" />
         <item itemvalue="Application.TestingSpringFramework" />
         <item itemvalue="Application.TestSpring" />
       </list>
