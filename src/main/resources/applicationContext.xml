@@ -11,5 +11,9 @@
           class="ru.start.springframework.PopMusic">
     </bean>
 
+     <bean id="musicPlayer"
+           class="ru.start.springframework.MusicPlayer">
+         <constructor-arg ref="musicBean"/>
+     </bean>
 </beans>
 
